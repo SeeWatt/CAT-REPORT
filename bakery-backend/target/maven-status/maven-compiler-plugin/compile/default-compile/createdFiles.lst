@@ -1,0 +1,17 @@
+com\bakery\BakeryServer$UpdateQuantityHandler.class
+com\bakery\CartService.class
+com\bakery\Product.class
+com\bakery\User.class
+com\bakery\BakeryServer$RemoveFromCartHandler.class
+com\bakery\BakeryServer$CheckoutHandler.class
+com\bakery\BakeryServer$CurrentUserHandler.class
+com\bakery\ProductRepository.class
+com\bakery\BakeryServer$LoginHandler.class
+com\bakery\BakeryServer$LogoutHandler.class
+com\bakery\BakeryServer$AddToCartHandler.class
+com\bakery\BakeryServer$CartHandler.class
+com\bakery\BakeryServer.class
+com\bakery\Cart.class
+com\bakery\BakeryServer$ProductsHandler.class
+com\bakery\UserRepository.class
+com\bakery\BakeryServer$RegisterHandler.class
