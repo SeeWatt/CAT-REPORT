@@ -21,7 +21,7 @@ public class ProductRepository {
             products.add(new Product("11", "Peanut Butter Cookie", "cookie", 5.50, "Rich and soft cookie made with creamy peanut butter.", "/image/p_b_cookie.jpg"));
             products.add(new Product("12", "Snickerdoodle", "cookie", 6.50, "Soft and chewy cinnamon sugar cookies.", "/image/snicker_cookie.jpg"));
             products.add(new Product("13", "Macadamia Nut Cookie", "cookie", 8.50, "Buttery cookies with crunchy macadamia nuts and white chocolate chips", "/image/macadamia_cookie.jpg"));
-            products.add(new Product("14", "Double Chocolate Chip Cookie", "cookie", 7.50, " Delicious chocolate chip cookie with added extra chocolate chips.", "/image/d_cookie.jpeg"));
+            products.add(new Product("14", "Double Chocolate Cookie", "cookie", 7.50, " Delicious chocolate chip cookie with added extra chocolate chips.", "/image/d_cookie.jpeg"));
             products.add(new Product("15", "Lemon Sugar Cookie", "cookie", 5.50, "Refreshing cookie with a tangy lemon flavor with a sweet and slightly crisp edge.", "/image/l_s_cookie.webp"));
             products.add(new Product("16", "Caramel Cookie", "cookie", 7.50, "Soft and chewy cookies with rich caramel flavor have a buttery texture and a lightly sweet taste from the caramel chunks inside.", "/image/caramel_cookie.jpg"));
             

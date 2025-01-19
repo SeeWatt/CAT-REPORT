@@ -32,7 +32,7 @@ function SignUp() {
     <div className="page-container">
       <div className="login-register-container">
         <div className="form-section">
-          <h2>Sign Up</h2>
+          <h2 style={{ color: 'black', textDecoration: 'none', fontWeight:'bold', lineHeight:'70px', fontSize:'50px',fontFamily: 'Caveat, cursive', padding:'1.5rem', textAlign:'center'}}>Sign Up</h2>
           <form onSubmit={handleSignUp}>
             <div>
               <label>Username : </label>

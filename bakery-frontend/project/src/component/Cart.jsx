@@ -92,7 +92,7 @@ function Cart() {
 
   return (
     <div className="cart-page" style={{ maxWidth: "800px", margin: "40px auto" }}>
-      <h2>My Cart</h2>
+      <h2 style={{ color: 'black', textDecoration: 'none', fontWeight:'bold', lineHeight:'70px', fontSize:'50px',fontFamily: 'Caveat, cursive'}}>My Cart</h2>
 
         {cartItems.length === 0 ? (
           <div className="empty-cart">

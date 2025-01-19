@@ -40,7 +40,7 @@ function Login({ setCurrentUser }) {
     <div className="page-container">
       <div className="login-register-container">
         <div className="form-section">
-          <h2>Login</h2>
+          <h2 style={{ color: 'black', textDecoration: 'none', fontWeight:'bold', lineHeight:'70px', fontSize:'50px',fontFamily: 'Caveat, cursive', padding:'1.5rem', textAlign:'center'}}>Login</h2>
           <form onSubmit={handleLogin}>
             <div>
               <label>Email: </label>

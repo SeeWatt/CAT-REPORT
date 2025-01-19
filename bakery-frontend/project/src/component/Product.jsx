@@ -19,7 +19,7 @@ const cookies = [
   { id: '11', name: 'Peanut Butter Cookie', price: 5.50, description: 'Rich and soft cookie made with creamy peanut butter.', image: '/image/p_b_cookie.jpg' },
   { id: '12', name: 'Snickerdoodle', price: 7.50, description: 'Soft and chewy cinnamon sugar cookies.', image: '/image/snicker_cookie.jpg' },
   { id: '13', name: 'Macadamia Nut Cookie', price: 6.50, description: 'Buttery cookies with crunchy macadamia nuts and white chocolate chips', image: '/image/macadamia_cookie.jpg' },
-  { id: '14', name: 'Double Chocolate Chip Cookie', price: 8.50, description: 'Delicious chocolate chip cookie with added extra chocolate chips.', image: '/image/d_cookie.jpeg' },
+  { id: '14', name: 'Double Chocolate Cookie', price: 8.50, description: 'Delicious chocolate chip cookie with added extra chocolate chips.', image: '/image/d_cookie.jpeg' },
   { id: '15', name: 'Lemon Sugar Cookie', price: 5.50, description: 'Refreshing cookie with a tangy lemon flavor with a sweet and slightly crisp edge.', image: '/image/l_s_cookie.webp' },
   { id: '16', name: 'Caramel Cookie', price: 7.50, description: 'Soft and chewy cookies with rich caramel flavor have a buttery texture and a lightly sweet taste from the caramel chunks inside.', image: '/image/caramel_cookie.jpg' },
 ];
@@ -51,7 +51,7 @@ function Products() {
 
   return (
     <div className="products-page">
-      <h2>Cakes</h2>
+      <h2 style={{ color: 'black', textDecoration: 'none', fontWeight:'bold', lineHeight:'70px', fontSize:'50px',fontFamily: 'Caveat, cursive', padding:'1.5rem'}}>Cakes</h2>
       <div className="product-grid">
         {cakes.map((cake) => (
           <div key={cake.id} className="product-item">
@@ -60,14 +60,14 @@ function Products() {
               alt={cake.name}
               onClick={() => showProductDetails(cake)} // Show product details when image is clicked
             />
-            <h3>{cake.name}</h3>
-            <p><strong>Price:</strong> RM {cake.price}</p> {/* Display price here */}
-            <button onClick={() => addToCart(cake.id)}>Add to Cart</button>
+            <h3 style={{margin:'0.6rem',}}>{cake.name}</h3>
+            <p style={{margin:'0.6rem',}}><strong>Price:</strong> RM {cake.price}</p> {/* Display price here */}
+            <button onClick={() => addToCart(cake.id)} style={{margin:'0.6rem',}}>Add to Cart</button>
           </div>
         ))}
       </div>
 
-      <h2>Cookies</h2>
+      <h2 >Cookies</h2>
       <div className="product-grid">
         {cookies.map((cookie) => (
           <div key={cookie.id} className="product-item">
@@ -76,9 +76,9 @@ function Products() {
               alt={cookie.name}
               onClick={() => showProductDetails(cookie)} // Show product details when image is clicked
             />
-            <h3>{cookie.name}</h3>
-            <p><strong>Price:</strong> RM {cookie.price}</p> {/* Display price here */}
-            <button onClick={() => addToCart(cookie.id)}>Add to Cart</button>
+            <h3 style={{margin:'0.6rem',}}>{cookie.name}</h3>
+            <p style={{margin:'0.6rem',}}><strong>Price:</strong> RM {cookie.price}</p> {/* Display price here */}
+            <button onClick={() => addToCart(cookie.id)} style={{margin:'0.6rem',}}>Add to Cart</button>
           </div>
         ))}
       </div>
